@@ -2778,7 +2778,7 @@ pub enum nng_zt_status {
     NNG_ZT_STATUS_OBSOLETE = 5,
     NNG_ZT_STATUS_UNKNOWN = 6,
 }
-#[link(name = "nng")]
+//#[link(name = "nng")]
 extern "C" {
     pub fn nng_zt_register() -> ::std::os::raw::c_int;
 }
